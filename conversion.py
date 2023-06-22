@@ -7,13 +7,27 @@ def celsius_to_fahrenheit(celsius):
     Returns:
         _int_: temperature in Fahrenheit
     """
+    if celsius is None:
+        return None
     return celsius/5*9 + 32
 
 def celsius_to_kelvin(celsius):
+    """Function to convert temperature in Celsius to temperature in Kelvin
+
+    Args:
+        celsius (_int_): temperature in Celsius
+
+    Returns:
+        _int_: temperature in Kelvin
+    """
+    if celsius is None:
+        return None
     return celsius + 273.15
 
 def kelvin_to_fahrenheit(kelvin):
+    if celsius is None:
+        return None
     celsius = kelvin - 273.15
     return celsius_to_fahrenheit(celsius)
 
-print(celsius_to_fahrenheit(30))
+print(celsius_to_fahrenheit(40))
