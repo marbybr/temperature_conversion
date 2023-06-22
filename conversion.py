@@ -1,11 +1,11 @@
 def celsius_to_fahrenheit(celsius):
-    """_Function to convert temperature in Celsius to temperature in Fahrenheit_
+    """Function to convert temperature in Celsius to temperature in Fahrenheit
 
     Args:
-        celsius (_int_): _temperature in Celsius_
+        celsius (_int_): temperature in Celsius
 
     Returns:
-        _int_: _temperature in Fahrenheit_
+        _int_: temperature in Fahrenheit
     """
     return celsius/5*9 + 32
 
